@@ -1,2 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+body {
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
+  margin: 0 auto;
+}
+
+main {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+.card {
+  height: 420px;
+  width: 250px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.brush {
+  background-color: mediumspringgreen;
+}
+
+.hack {
+  background-color: lightcoral;
+}
+
+.paint {
+  background-color: skyblue;
+}
+
+h3 {
+  text-align: center;
+  margin: 10px 0 5px 0;
+}
+
+h4 {
+  font-family: Helvetica, sans-serif;
+  color: blue;
+  font-weight: bold;
+}
+
+footer {
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: black;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFVBQVU7RUFDVixTQUFTO0FDQ2I7O0FERUE7RUFDSSxzQkFBc0I7QUNDMUI7O0FERUE7RUFDSSxpQkFBaUI7RUFDakIsK0ZBQStGO0VBQy9GLGNBQWM7QUNDbEI7O0FERUE7RUFDSSxpQkFBaUI7RUFDakIsaUJBQWlCO0VBQ2pCLGFBQWE7RUFDYiw2QkFBNkI7RUFDN0IsbUJBQW1CO0FDQ3ZCOztBREVBO0VBQ0ksa0NBQWtDO0VBQ2xDLGdCQUFnQjtFQUNoQixpQkFBaUI7RUFDakIsWUFBWTtFQUNaLGtCQUFrQjtBQ0N0Qjs7QURFQTtFQUNJLGFBQWE7RUFDYixZQUFZO0VBQ1osZ0JBQWdCO0VBQ2hCLGFBQWE7RUFDYixzQkFBc0I7QUNDMUI7O0FERUE7RUFDSSxrQ0FBa0M7RUFDbEMsZUFBZTtFQUNmLGlCQUFpQjtFQUNqQixZQUFZO0VBQ1osa0JBQWtCO0FDQ3RCOztBREVBO0VBQ0ksbUNBQW1DO0FDQ3ZDOztBREVBO0VBQ0ksNEJBQTRCO0FDQ2hDOztBREVBO0VBQ0kseUJBQXlCO0FDQzdCOztBREVBO0VBQ0ksa0JBQWtCO0VBQ2xCLG9CQUFvQjtBQ0N4Qjs7QURDQztFQUNHLGtDQUFrQztFQUNsQyxXQUFXO0VBQ1gsaUJBQWlCO0FDRXJCOztBRENDO0VBQ0ksaUJBQWlCO0VBQ2pCLGlCQUFpQjtFQUNqQix1QkFBdUI7QUNFNUI7O0FEQ0M7RUFDSSxrQkFBa0I7RUFDbEIsWUFBWTtFQUNaLGFBQWE7QUNFbEIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
